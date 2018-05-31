@@ -1,0 +1,19 @@
+{
+  "name": "example-workspaces-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+  ],
+  "workspaces": {
+    "packages": [
+      "workspace-a",
+      "workspace-b"
+    ],
+    "nohoist": [
+      "**/mobx-react"
+    ]
+  },
+
+  "private": true
+}
