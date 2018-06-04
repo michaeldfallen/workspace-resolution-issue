@@ -58,7 +58,7 @@ workspace-b > node_modules > child > node_modules > root 1.0.0
 ```
 
 The end result is that when code from the "child" runs in workspace-b it will
-be using a different version of root than then one that workspace-b is requesting,
+be using a different version of "root" than the one that workspace-b is requesting,
 despite that version being correct for it's dependency string.
 
 
